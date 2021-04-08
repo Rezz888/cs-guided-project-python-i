@@ -10,4 +10,8 @@ Examples:
 """
 def string_int(txt):
     # Your code here
+    number = int(txt)
+    return number
+
+print(string_int("1000"))
 
